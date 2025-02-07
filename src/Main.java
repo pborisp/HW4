@@ -27,11 +27,11 @@ public class Main {
 
         // Задача №3
         System.out.println("Задача №3:");
-        int year = 2021;
+        int year = 1900;
         int startYear = 1584;
-        int count1 = (year - startYear) % 400;
-        int count2 = (year - startYear) % 100;
-        int count3 = (year - startYear) % 4;
+        int count1 = year % 400;
+        int count2 = year % 100;
+        int count3 = year % 4;
         if (count1 == 0) {
             System.out.println(year + " год является високосным");
         } else if (count1 != 0 && count2 == 0) {
