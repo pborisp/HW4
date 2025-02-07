@@ -59,5 +59,51 @@ public class Main {
             System.out.println("Доставки нет");
         }
         System.out.println();
+
+        // Задача №5
+        System.out.println("Задача №5:");
+        int monthNumber = 12;
+        switch (monthNumber) {
+            case (1) :
+                System.out.println(monthNumber+"-й месяц (январь) принадлежит к сезону зима");
+                break;
+            case (2) :
+                System.out.println(monthNumber+"-й месяц (февраль) принадлежит к сезону зима");
+                break;
+            case (3) :
+                System.out.println(monthNumber+"-й месяц (март) принадлежит к сезону весна");
+                break;
+            case (4) :
+                System.out.println(monthNumber+"-й месяц (апрель) принадлежит к сезону весна");
+                break;
+            case (5) :
+                System.out.println(monthNumber+"-й месяц (май) принадлежит к сезону весна");
+                break;
+            case (6) :
+                System.out.println(monthNumber+"-й месяц (июнь) принадлежит к сезону лето");
+                break;
+            case (7) :
+                System.out.println(monthNumber+"-й месяц (июль) принадлежит к сезону лето");
+                break;
+            case (8) :
+                System.out.println(monthNumber+"-й месяц (август) принадлежит к сезону лето");
+                break;
+            case (9) :
+                System.out.println(monthNumber+"-й месяц (сентябрь) принадлежит к сезону осень");
+                break;
+            case (10) :
+                System.out.println(monthNumber+"-й месяц (октябрь) принадлежит к сезону осень");
+                break;
+            case (11) :
+                System.out.println(monthNumber+"-й месяц (ноябрь) принадлежит к сезону осень");
+                break;
+            case (12) :
+                System.out.println(monthNumber+"-й месяц (декабрь) принадлежит к сезону зима");
+                break;
+            default :
+                System.out.println("Ошибка! Неверно указан номер месяца");
+                break;
+        }
+        System.out.println();
     }
 }
