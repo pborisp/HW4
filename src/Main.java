@@ -58,5 +58,6 @@ public class Main {
         } else {
             System.out.println("Доставки нет");
         }
+        System.out.println();
     }
 }
