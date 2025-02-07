@@ -24,5 +24,23 @@ public class Main {
             System.out.println("Установите версию приложения для iOS по ссылке");
         }
         System.out.println();
+
+        // Задача №3
+        System.out.println("Задача №3:");
+        int year = 2021;
+        int startYear = 1584;
+        int count1 = (year - startYear) % 400;
+        int count2 = (year - startYear) % 100;
+        int count3 = (year - startYear) % 4;
+        if (count1 == 0) {
+            System.out.println(year + " год является високосным");
+        } else if (count1 != 0 && count2 == 0) {
+            System.out.println(year + " год не является високосным");
+        } else if (count2 != 0 && count3 == 0) {
+            System.out.println(year + " год является високосным");
+        } else {
+            System.out.println(year + " год не является високосным");
+        }
+        System.out.println();
     }
 }
