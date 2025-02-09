@@ -27,16 +27,8 @@ public class Main {
 
         // Задача №3
         System.out.println("Задача №3:");
-        int year = 1900;
-        int startYear = 1584;
-        int count1 = year % 400;
-        int count2 = year % 100;
-        int count3 = year % 4;
-        if (count1 == 0) {
-            System.out.println(year + " год является високосным");
-        } else if (count1 != 0 && count2 == 0) {
-            System.out.println(year + " год не является високосным");
-        } else if (count2 != 0 && count3 == 0) {
+        int year = 2021;
+        if ((year % 400) == 0 || (year % 4 == 0 && year % 100 != 0)) {
             System.out.println(year + " год является високосным");
         } else {
             System.out.println(year + " год не является високосным");
